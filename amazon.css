@@ -1,0 +1,214 @@
+*{ margin: 0;
+    padding: 0;
+    border: borderbox;
+    font-family: Arial;}
+    
+    .navbar { height: 60px;
+    background-color: #0f1111;
+     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;}
+    
+     .nav-logo{ height: 50px;
+    width: 100px;}
+    
+     .logo{  background-image: url(amazon-logo.png);
+    background-size: cover;
+    height: 53px;
+    width: 100px;}
+    
+    .border { 
+        border: 1.5px solid transparent; }
+    
+        .border:hover{ 
+            border:1.5px solid white;
+        }
+    
+    
+    
+        /* BOX 2 */
+        .add-first{  color: #ccc;
+        font-size: 0.85rem;}
+    
+        .add-second{ color: #fff;
+        font-size: 1rem;}
+    
+        .add-icon{ display: flex;}
+    
+    
+        /* BOX 3 */
+    
+        .nav-search{ 
+            display: flex;
+            height: 40px;
+            width: 620px;
+        }
+    
+        .nav-search:hover{
+            border: 3px solid orange;
+        }
+        .search-icon{
+            height: 40px;
+            width: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:  #febd68;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            color: #0f1111;
+            font-size: 1.2rem;
+        }
+    
+        .search-select{
+            height: 40px;
+            width: 50px;
+            background-color: #e6e6e6e6;
+            text-align: center;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border: none;
+        }
+    
+        .search-input{ width: 100%;
+        font-size: 1rem;
+    border: none;}
+    
+    /* box 4 */
+    
+    span{ font-size: 12px;}
+    .nav-second{ font-size: 14px;
+    font-weight: 700;}
+    
+    /* box 6 */
+    
+    .nav-cart{ font-weight: 700;}
+    
+    .nav-cart i{ width: 35px;}
+    
+    
+    
+    /* panel */
+    
+    
+    .panel{
+        background-color: #222f38;
+        height: 40px;
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .panel-opt p{ display: inline;
+        margin-left: 15px;
+        font-size: 0.8rem;
+    }
+    
+    .panel-opt{ width: 70%;}
+    
+    .deal{ font-size: 0.9rem;
+    font-weight: 700;}
+    
+    
+    
+    /* hero section */
+    
+     .hero-sec{ 
+        background-image: url(hero.jpg);
+        background-size: cover;
+        height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    }
+        
+        .hero-msg{
+            background-color: white;
+            width: 90%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+    
+    .hero-msg a{
+        color: #2354e9;
+    }
+    
+                                    /* shop section */
+    
+    
+    .shop-sec{ display: flex;
+        flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 670px;
+    background-color:rgba(245, 88, 159, .85);}
+    
+    
+     .box{ 
+     height: 300px;
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;}    
+    
+    .box a{ color: #2354e9;}
+    
+    .box-content{ margin-left: 1rem;
+    margin-right: 1rem;}
+    
+    .box-img{ height: 250px;
+    background-size:cover ;}
+    
+                                   /* footer */
+    
+    .footpanel{
+        background-color: #37375a;
+        color: #fff;
+        height: 30px;
+        text-align: center;
+        justify-content: center;
+        padding-top: 15px;  
+        margin-top: 50px;
+    }
+    
+    .footer-1{
+        background-color: #222f38;
+        color: #fff;
+        height: 320px;
+        display: flex;
+       justify-content: space-evenly;
+      padding-top: 30px;
+        
+    }
+    
+    ul a{
+        display: block;
+        font-size: 0.95rem;
+        padding: 6px;
+        color: #dddd;
+    }
+    
+    ul p {
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 8px;
+    }
+    
+    .footer-2{
+        height: 70px;
+        background-color:#222f38 ;
+        border-top: 0.5px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    
+    .footer-2 span{
+        font-size: large;
+        font-weight: 600;
+        margin-left: 3px;
+    }
