@@ -141,4 +141,34 @@
        margin-left: 8px;
        font-size: 0.8rem;
     }
+
+    .container p{
+        border-bottom: 2px solid white;
+    }
+
+    .container a{
+        padding:3px;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:435px){
+    .footer-1{
+        height: 600px;
+    }
+    
+
+    .container a{
+        padding:3px;
+        font-size: 0.8rem;
+    }
+
+    .hero-sec{
+        height: 135px;
+}
+
+.panel-opt p{
+    margin: 6px;
+    font-size: 0.65rem;
+}
 }
