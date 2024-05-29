@@ -1,7 +1,8 @@
 *{ margin: 0;
     padding: 0;
     border: borderbox;
-    font-family: Arial;}
+    font-family: Arial;
+}
     
     .navbar { height: 60px;
     background-color: #0f1111;
@@ -85,7 +86,8 @@
     
     .nav-cart{ font-weight: 700;}
     
-    .nav-cart i{ width: 35px;}
+    .nav-cart i{ width: 35px;
+    font-size: x-large;}
     
     
     
@@ -158,6 +160,11 @@
     
     .box-content{ margin-left: 1rem;
     margin-right: 1rem;}
+
+    .box-content span{
+ font-size: 1.5rem;
+ font-weight: 550;
+    }
     
     .box-img{ height: 250px;
     background-size:cover ;}
@@ -179,6 +186,7 @@
         color: #fff;
         height: 320px;
         display: flex;
+        flex-wrap: wrap;
        justify-content: space-evenly;
       padding-top: 30px;
         
@@ -196,7 +204,7 @@
         font-weight: 600;
         padding: 8px;
     }
-    
+
     .footer-2{
         height: 70px;
         background-color:#222f38 ;
