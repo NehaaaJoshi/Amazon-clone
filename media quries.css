@@ -15,9 +15,9 @@
  text-align: center;
     }
 
-    .hero-sec{
-        height: 290px;
-        font-size: 12px;
+    .hero-sec{ background-image: url(naya.jpg);
+        height: 320px;
+        background-size: cover;
     }
 
     .box-content span{
@@ -34,11 +34,11 @@
         }
         .deal{ display: flex;
             align-items: end;
-            margin-left: 8px;
+            margin-left: 20px;
          }
 }
 
-@media screen and (max-width:760px){
+@media screen and (max-width:790px){
     .container{
         width: calc(50% - 40px);
         display: flex;
@@ -46,8 +46,14 @@
     }
 
     .hero-sec{
-        height: 250px;
+        background-image: url(naya.jpg);
+        height: 290px;
+        background-size: cover;
+        margin-top: 3px;
 }
+
+.box-content{ margin-left: 0.85rem;
+    margin-right: 0.85rem;}
 
     .footer-1{
         height: 580px;
@@ -65,6 +71,7 @@
     }
 
     .panel{height: 50px;
+        margin-top: 2px;
     }
 
     .panel-opt{
@@ -76,16 +83,30 @@
 @media screen and (max-width:500px){
     .box{
         flex-direction: column;
-        width:calc(100% - 20px );
+        /* width:calc(50% - 10px ); */
+        height: 240px;
+        margin-top: 5;
     }
+
+    .box-img{ height: 190px;}
 
     .shop-sec{
-        height: 2590px;
+        /* height: 2590px; */
+        height:1059px;
+        /* align-items: center; */
     }
 
-    .hero-sec{
+    .box-content span{
+        font-size: 1.1rem;}
+
+        .box-content{ margin-left: 0.6rem;
+            margin-right: 0.6rem;}
+
+    .hero-sec{ 
+        background-image: url(naya.jpg);
+        background-size: cover;
         margin-top: 3px;
-        height: 150px;
+        height: 255px;
 }
 
 .hero-msg{
@@ -164,7 +185,7 @@
     }
 
     .hero-sec{
-        height: 135px;
+        height: 290px;
 }
 
 .panel-opt p{
